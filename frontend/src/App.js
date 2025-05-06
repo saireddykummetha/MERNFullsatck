@@ -12,7 +12,7 @@ function App() {
 
   useEffect(()=>{
     (async()=>{
-      const res=await fetch('http://localhost:8080/project')
+      const res=await fetch('https://mernfullsatck.onrender.com/project')
       const resdata=await res.json()
       // console.log(resdata)
       dispatch(setProject(resdata))
@@ -21,7 +21,7 @@ function App() {
    
     useEffect(()=>{
       (async()=>{
-        const res=await fetch('http://localhost:8080/youtube')
+        const res=await fetch('https://mernfullsatck.onrender.com/youtube')
         const data=await res.json()
         console.log(data)
         dispatch(uploadProject(data))
