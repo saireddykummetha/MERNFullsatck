@@ -8,8 +8,7 @@ const app = express({limit:'100mb'});
 
 app.use(cors());
 app.use(express.json());
-const PORT =  8080;
-
+const PORT =  process.env.PORT || 8080;
 mongoose.connect(process.env.MONGODB_URL)
 .then(()=>{
        console.log('MongoDB connected');
