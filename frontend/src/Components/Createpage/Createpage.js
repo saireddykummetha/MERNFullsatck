@@ -38,7 +38,7 @@ const Craetepage = ({onClose}) => {
     e.preventDefault();
     const {name}=data
    if(name ){
-    const fetchData=await fetch('http://localhost:8080/createproject',{
+    const fetchData=await fetch('https://mernfullsatck.onrender.com/createproject',{
       method:'POST',
       headers:{
         'Content-Type':'application/json'
