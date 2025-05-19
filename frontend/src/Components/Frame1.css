@@ -5,12 +5,13 @@
 
 /* Left side */
 .Left-side {
-  width: 70%;
- background: linear-gradient(231.62deg, #C37EFF -26.53%, #3A0B63 117.16%);
-  padding: 2.5rem;
-  color: white;
-  display: flex;
-  justify-content: center;
+width: 70%;
+background: linear-gradient(231.62deg, #C37EFF -26.53%, #3A0B63 117.16%);
+padding: 2.0rem;
+color: white;
+display: flex;
+justify-content: center;
+max-height: max-content;
  
 }
 
@@ -61,8 +62,7 @@
 }
 
 .highlight-box {
-   font-size: 20px;
-
+  font-size: 20px;
   display: inline-block;
 }
 
@@ -73,6 +73,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+   max-height: max-content;
 }
 
 .form-wrapper {
